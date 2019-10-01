@@ -20,3 +20,10 @@ Live Link - [JavaScript Drum Kit](https://mriyam.dev/JavaScript30/CompletedChall
 
 **Thoughts**: 
 Learned about [`keydown` event](https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event), [`transitionend` event](https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event) and little bit about the [`audio` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio).
+
+### Day 2 - October 1, 2019
+
+Live Link - [JS and CSS Clock](https://mriyam.dev/JavaScript30/CompletedChallenges/02-js-and-css-clock/)
+
+**Thoughts**: 
+Learned about CSS [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform), the JavaScript method [`setInterval`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) and a little bit about the global object [`Date`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
