@@ -25,5 +25,10 @@ Learned about [`keydown` event](https://developer.mozilla.org/en-US/docs/Web/API
 
 Live Link - [JS and CSS Clock](https://mriyam.dev/JavaScript30/CompletedChallenges/02-js-and-css-clock/)
 
-**Thoughts**: 
+**Thoughts**:
 Learned about CSS [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform), the JavaScript method [`setInterval`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) and a little bit about the global object [`Date`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+
+Apart from learning these, made a modification to the clock, added the clock
+numbers as an SVG, then played around with the `width`, `top` and `left`
+properties of the hour, minute and second hands to have a better looking clock.
+Better being relative. :laughing:
