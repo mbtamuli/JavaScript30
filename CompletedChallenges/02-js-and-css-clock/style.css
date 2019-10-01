@@ -25,7 +25,7 @@ body {
   padding: 2rem;
   box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
     inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
-  background: #fff url(/images/clock.svg) no-repeat center;
+  background: #fff url(./images/clock.svg) no-repeat center;
   background-size: 88%;
 }
 
