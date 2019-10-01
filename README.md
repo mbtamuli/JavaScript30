@@ -31,4 +31,4 @@ Learned about CSS [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS
 Apart from learning these, made a modification to the clock, added the clock
 numbers as an SVG, then played around with the `width`, `top` and `left`
 properties of the hour, minute and second hands to have a better looking clock.
-Better being relative. :laughing:
+Better being relative. 😆
