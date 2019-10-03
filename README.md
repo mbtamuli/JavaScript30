@@ -40,3 +40,10 @@ Live Link - [CSS Variables](https://mriyam.dev/JavaScript30/CompletedChallenges/
 **Thoughts**:
 Woah, I wasn't even aware vanilla CSS had variable support(in whatever way). But I learned it today. 😎 
 I also learned about the [`:root` CSS element](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) and that in JavaScript it can be referenced by [`document.documentElement`](https://developer.mozilla.org/en-US/docs/Web/API/Document/documentElement). Also used [`dataset`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/dataset) attributes to set the suffix for each CSS property modified by the inputs.
+
+### Day 4 - October 3, 2019
+
+Live Link - [Array Cardio Day 1](https://mriyam.dev/JavaScript30/CompletedChallenges/04-array-cardio-day-1/)
+
+**Thoughts**:
+I had previously encountered and practiced some stuff on [`Array.prototype.map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [`Array.prototype.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce), [`Array.prototype.filter()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter). I had also encountered [`Array.prototype.sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) in the MDN docs while solving a problem. So today I completed the whole exercise without looking even at the process, let alone the solution. Proud! 😎
