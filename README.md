@@ -47,3 +47,10 @@ Live Link - [Array Cardio Day 1](https://mriyam.dev/JavaScript30/CompletedChalle
 
 **Thoughts**:
 I had previously encountered and practiced some stuff on [`Array.prototype.map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [`Array.prototype.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce), [`Array.prototype.filter()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter). I had also encountered [`Array.prototype.sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) in the MDN docs while solving a problem. So today I completed the whole exercise without looking even at the process, let alone the solution. Proud! 😎
+
+### Day 5 - October 4, 2019
+
+Live Link - [Flex Panel Gallery](https://mriyam.dev/JavaScript30/CompletedChallenges/05-flex-panel-gallery/)
+
+**Thoughts**:
+[Flexible Box Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout) is completely new to me. Read the CSS properties, Alignnment properties and glossary terms mentioned on the [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout#Reference) that I used in this challenge. Will have to read the other properties also to have a complete view of Flex Box Layout.
