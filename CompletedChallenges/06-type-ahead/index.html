@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Type Ahead 👀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form class="search-form">
+    <input type="text" class="search" placeholder="City or State">
+    <ul class="suggestions">
+      <li>Filter for a city</li>
+      <li>or a state</li>
+    </ul>
+  </form>
+<script>
+const endpoint = 'https://raw.githubusercontent.com/nshntarora/Indian-Cities-JSON/master/cities.json';
+
+const cities = [];
+
+fetch(endpoint)
+  .then(response => response.json())
+  .then(data => cities.push(...data))
+
+function findMatches(stringToMatch, cities) {
+  return cities.filter(place => {
+    const regex = new RegExp(stringToMatch, 'gi');
+    return place.name.match(regex) || place.state.match(regex);
+  });
+}
+
+function displayMatches() {
+  const matchArray = findMatches(this.value, cities);
+  const html = matchArray.map(place => {
+    const regex = new RegExp(this.value, 'gi');
+    const cityName = place.name.replace(regex, `<span class="hl">${this.value}</span>`);
+    const stateName = place.state.replace(regex, `<span class="hl">${this.value}</span>`);
+    return `
+      <li>
+        <span class="name">${cityName} , ${stateName}</span>
+      </li>
+    `;
+  }).join('');
+  suggestionsList.innerHTML = html;
+}
+
+const searchInput = document.querySelector('input');
+const suggestionsList = document.querySelector('.suggestions');
+
+searchInput.addEventListener('input', displayMatches);
+
+</script>
+</body>
+</html>

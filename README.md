@@ -54,3 +54,10 @@ Live Link - [Flex Panel Gallery](https://mriyam.dev/JavaScript30/CompletedChalle
 
 **Thoughts**:
 [Flexible Box Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout) is completely new to me. Read the CSS properties, Alignnment properties and glossary terms mentioned on the [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout#Reference) that I used in this challenge. Will have to read the other properties also to have a complete view of Flex Box Layout.
+
+### Day 6 - October 5, 2019
+
+Live Link - [Type Ahead](https://mriyam.dev/JavaScript30/CompletedChallenges/06-type-ahead/)
+
+**Thoughts**:
+Almost all the topics today are new to me. So I read up on MDN like always. I actually found that the [`input`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event) event was fired every time the value of an input changed, instead of only when it is being committed(press enter, click elsewhere, etc). So instead of using [`change`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event) and [`keyup`](https://developer.mozilla.org/en-US/docs/Web/API/Document/keyup_event), I swapped it with the `input` event only. I also swapped the cities list with a list of Indian cities 🇮🇳. But it didn't have a population count, so I removed everything related to population.
