@@ -61,3 +61,10 @@ Live Link - [Type Ahead](https://mriyam.dev/JavaScript30/CompletedChallenges/06-
 
 **Thoughts**:
 Almost all the topics today are new to me. So I read up on MDN like always. I actually found that the [`input`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event) event was fired every time the value of an input changed, instead of only when it is being committed(press enter, click elsewhere, etc). So instead of using [`change`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event) and [`keyup`](https://developer.mozilla.org/en-US/docs/Web/API/Document/keyup_event), I swapped it with the `input` event only. I also swapped the cities list with a list of Indian cities 🇮🇳. But it didn't have a population count, so I removed everything related to population.
+
+### Day 7 - October 7, 2019
+
+Live Link - [Array Cardio Day 2](https://mriyam.dev/JavaScript30/CompletedChallenges/07-array-cardio-day-2/)
+
+**Thoughts**:
+Similar to the Day 4, today was a breeze and I did the exercise within 1 Pomodoro. (I follow the Pomodoro technique). I had already read up on [`Array.prototype.some()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some), [`Array.prototype.every()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every), [`Array.prototype.find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) and [`Array.prototype.findIndex()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
