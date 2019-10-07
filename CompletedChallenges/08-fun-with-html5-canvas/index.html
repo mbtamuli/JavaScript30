@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Canvas</title>
+  <style>
+    html, body {
+      margin: 0;
+    }
+
+    /*
+        Button styles from https://tympanus.net/Development/CreativeButtons/
+        */
+    .btn {
+      border: none;
+      font-family: inherit;
+      font-size: inherit;
+      cursor: pointer;
+      padding: 25px 80px;
+      display: inline-block;
+      margin: 15px 30px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700;
+      outline: none;
+      position: absolute;
+      background: #cb4e4e;
+      color: #fff;
+      box-shadow: 0 6px #ab3c3c;
+      transition: none;
+      border-radius: 0 0 5px 5px;
+    }
+
+    .btn:after {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+
+    .btn:hover {
+      box-shadow: 0 4px #ab3c3c;
+      top: 2px;
+    }
+
+    .btn:active {
+      box-shadow: 0 0 #ab3c3c;
+      top: 6px;
+    }
+  </style>
+</head>
+<body>
+<button id="clear" class="btn">Clear</button>
+<canvas id="draw" width="800" height="800"></canvas>
+<script>
+  const getRandomInt = function(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+  }
+
+  const canvas = document.querySelector('#draw');
+  const clearButton = document.querySelector('#clear');
+  const ctx = canvas.getContext('2d');
+
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  ctx.strokeStyle = '#BADA55';
+  ctx.lineJoin = 'round';
+  ctx.lineCap = 'round';
+  ctx.lineWidth = 10;
+
+  let isDrawing = false;
+  let lastX = 0;
+  let lastY = 0;
+  let hue = getRandomInt(0, 360);
+  let direction = true;
+
+  const draw = function (event) {
+      if (!isDrawing) return;
+      console.log(event);
+
+      ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
+      ctx.beginPath();
+      ctx.moveTo(lastX, lastY);
+      ctx.lineTo(event.offsetX, event.offsetY);
+      ctx.stroke();
+
+      [lastX, lastY] = [event.offsetX, event.offsetY];
+      hue += 1;
+      if (hue > 360) {
+          hue = 0;
+      }
+
+      if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
+          direction = !direction;
+      }
+
+      if (direction) {
+          ctx.lineWidth += 1;
+      } else {
+          ctx.lineWidth -= 1;
+      }
+  }
+
+  canvas.addEventListener('mousemove', draw);
+  canvas.addEventListener('mousedown', (event) => {
+      isDrawing = true;
+      [lastX, lastY] = [event.offsetX, event.offsetY];
+  });
+  canvas.addEventListener('mouseout', () => isDrawing = false);
+  canvas.addEventListener('mouseup', () => isDrawing = false);
+
+  const clearCanvas = function() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+  }
+  clearButton.addEventListener('click', clearCanvas);
+</script>
+</body>
+</html>

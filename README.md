@@ -68,3 +68,10 @@ Live Link - [Array Cardio Day 2](https://mriyam.dev/JavaScript30/CompletedChalle
 
 **Thoughts**:
 Similar to the Day 4, today was a breeze and I did the exercise within 1 Pomodoro. (I follow the Pomodoro technique). I had already read up on [`Array.prototype.some()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some), [`Array.prototype.every()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every), [`Array.prototype.find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) and [`Array.prototype.findIndex()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+
+### Day 8 - October 8, 2019
+
+Live Link - [Fun with HTML5 Canvas](https://mriyam.dev/JavaScript30/CompletedChallenges/08-fun-with-html5-canvas/)
+
+**Thoughts**:
+Today was completely new for me again. Had never worked with the Canvas element. Read about all the methods and attributes of canvas I used on MDN, and then some. I tied up [`CanvasRenderingContext2D.clearRect()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/clearRect) to a button.
