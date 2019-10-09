@@ -75,3 +75,10 @@ Live Link - [Fun with HTML5 Canvas](https://mriyam.dev/JavaScript30/CompletedCha
 
 **Thoughts**:
 Today was completely new for me again. Had never worked with the Canvas element. Read about all the methods and attributes of canvas I used on MDN, and then some. I tied up [`CanvasRenderingContext2D.clearRect()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/clearRect) to a button.
+
+### Day 9 - October 9, 2019
+
+Live Link - [Dev Tools Domination](https://mriyam.dev/JavaScript30/CompletedChallenges/09-dev-tools-domination/)
+
+**Thoughts**:
+Wow, even the console was hiding so much functionality. I just new about `console.log`, `console.warn`, `console.error`, `console.info`. Especially love the [`console.group()`](https://developer.mozilla.org/en-US/docs/Web/API/Console/group) feature and the [`console.time()`](https://developer.mozilla.org/en-US/docs/Web/API/Console/time) feature.
