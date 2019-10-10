@@ -96,6 +96,40 @@
   </div>
 
 <script>
+  const checkboxes = document.querySelectorAll('input[type=checkbox]');
+
+  const getLowestDifference = function(first, second, difference) {
+    const newDifference = Math.abs(first - second);
+    return Math.min(difference, newDifference);
+  }
+
+  const handleChecked = function(event) {
+    let currentNodeIndex;
+    let nearestCheckedNodeIndex;
+    let difference = Infinity;
+    for (let i = 0; i < checkboxes.length; i++) {
+      if (checkboxes[i].isSameNode(event.target)) {
+        currentNodeIndex = i;
+      }
+
+      if (checkboxes[i].checked 
+        && (!checkboxes[i].isSameNode(event.target))) {
+          nearestCheckedNodeIndex = i;
+          currentDifference = getLowestDifference(currentNodeIndex,nearestCheckedNodeIndex,difference);
+          difference = currentDifference;
+        }
+    }
+
+    const [initial,final] = [currentNodeIndex,nearestCheckedNodeIndex].sort();
+
+    if (event.shiftKey) {
+      for (let i = initial; i < final; i++) {
+        checkboxes[i].checked = true;
+      }
+    }
+  };
+  
+  checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleChecked));
 </script>
 </body>
 </html>

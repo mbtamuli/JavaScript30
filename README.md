@@ -82,3 +82,10 @@ Live Link - [Dev Tools Domination](https://mriyam.dev/JavaScript30/CompletedChal
 
 **Thoughts**:
 Wow, even the console was hiding so much functionality. I just new about `console.log`, `console.warn`, `console.error`, `console.info`. Especially love the [`console.group()`](https://developer.mozilla.org/en-US/docs/Web/API/Console/group) feature and the [`console.time()`](https://developer.mozilla.org/en-US/docs/Web/API/Console/time) feature.
+
+### Day 10 - October 10, 2019
+
+Live Link - [Hold Shift and Check Checkboxes](https://mriyam.dev/JavaScript30/CompletedChallenges/10-hold-shift-and-check-checkboxes/)
+
+**Thoughts**:
+In this exercise, I tried it myself first, and then saw the solution. Once you see the solution, it seems simple enough. Even though the code I wrote is not as clean or optimal, I'm happy that I was able to complete it without using any libraries and without looking at the solution! 😅💪
