@@ -89,3 +89,10 @@ Live Link - [Hold Shift and Check Checkboxes](https://mriyam.dev/JavaScript30/Co
 
 **Thoughts**:
 In this exercise, I tried it myself first, and then saw the solution. Once you see the solution, it seems simple enough. Even though the code I wrote is not as clean or optimal, I'm happy that I was able to complete it without using any libraries and without looking at the solution! 😅💪
+
+### Day 11 - October 11, 2019
+
+Live Link - [Custom Video Player](https://mriyam.dev/JavaScript30/CompletedChallenges/11-custom-video-player/)
+
+**Thoughts**:
+This was pretty cool. I'll revisit this once I'm done with all the challenges. I learnt quite a few properties and methods of [HTMLMediaElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement) and also about using the [`flex-basis`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis) CSS property.
