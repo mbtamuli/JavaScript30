@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <style>
+    body {
+      background-color: rebeccapurple;
+    }
+
+    h1 {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      font-size: 144pt;
+      color: #fff;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-shadow: 0px -6px 0 #212121, 0px -6px 0 #212121, 0px 6px 0 #212121,
+        0px 6px 0 #212121, -6px 0px 0 #212121, 6px 0px 0 #212121, -6px 0px 0 #212121,
+        6px 0px 0 #212121, -6px -6px 0 #212121, 6px -6px 0 #212121,
+        -6px 6px 0 #212121, 6px 6px 0 #212121, -6px 18px 0 #212121,
+        0px 18px 0 #212121, 6px 18px 0 #212121, 0 19px 1px rgba(0, 0, 0, 0.1),
+        0 0 6px rgba(0, 0, 0, 0.1), 0 6px 3px rgba(0, 0, 0, 0.3),
+        0 12px 6px rgba(0, 0, 0, 0.2), 0 18px 18px rgba(0, 0, 0, 0.25),
+        0 24px 24px rgba(0, 0, 0, 0.2), 0 36px 36px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+  <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+  <h1 class="keycode"></h1>
+<script>
+
+  const keycodeElem = document.querySelector('.keycode');
+
+  const secretCode = "mriyam";
+  const pressed = [];
+
+  function displayKey(key) {
+    keycodeElem.textContent = event.key;
+    setTimeout(()=>{
+      keycodeElem.textContent = '';
+    }, 360);
+  }
+
+  window.addEventListener('keyup', (event) => {
+    displayKey(event.key);
+    pressed.push(event.key);
+    pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+    if (pressed.join('').includes(secretCode)) {
+      cornify_add();
+    }
+  });
+</script>
+</body>
+</html>

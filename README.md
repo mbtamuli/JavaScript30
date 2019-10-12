@@ -96,3 +96,10 @@ Live Link - [Custom Video Player](https://mriyam.dev/JavaScript30/CompletedChall
 
 **Thoughts**:
 This was pretty cool. I'll revisit this once I'm done with all the challenges. I learnt quite a few properties and methods of [HTMLMediaElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement) and also about using the [`flex-basis`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis) CSS property.
+
+### Day 12 - October 12, 2019
+
+Live Link - [Key Sequence Detection](https://mriyam.dev/JavaScript30/CompletedChallenges/12-key-sequence-detection/)
+
+**Thoughts**:
+It was fun today. Apparently the [KONAMI code exists on a lot of websites](https://en.wikipedia.org/wiki/Konami_Code#References_outside_of_Konami_games). I modified the demo a little to display the key that was pressed.
