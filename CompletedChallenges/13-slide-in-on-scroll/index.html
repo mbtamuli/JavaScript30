@@ -56,15 +56,13 @@
         timeout = setTimeout(later, wait);
         if (callNow) func.apply(context, args);
       };
-    };
+    }
 
     const sliderImages = document.querySelectorAll('.slide-in');
 
-    function checkSlide() {
+    function checkSlide(event) {
       sliderImages.forEach(sliderImage => {
-        // half way through the image
-        const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
-        // bottom of the image
+        const slideInAt = (window.scrollY + window.innerHeight) - (sliderImage.height / 2);
         const imageBottom = sliderImage.offsetTop + sliderImage.height;
         const isHalfShown = slideInAt > sliderImage.offsetTop;
         const isNotScrolledPast = window.scrollY < imageBottom;
@@ -75,9 +73,8 @@
         }
       });
     }
-
+    
     window.addEventListener('scroll', debounce(checkSlide));
-
   </script>
 
   <style>

@@ -103,3 +103,10 @@ Live Link - [Key Sequence Detection](https://mriyam.dev/JavaScript30/CompletedCh
 
 **Thoughts**:
 It was fun today. Apparently the [KONAMI code exists on a lot of websites](https://en.wikipedia.org/wiki/Konami_Code#References_outside_of_Konami_games). I modified the demo a little to display the key that was pressed.
+
+### Day 13 - October 13, 2019
+
+Live Link - [Slide in on Scroll](https://mriyam.dev/JavaScript30/CompletedChallenges/13-slide-in-on-scroll/)
+
+**Thoughts**:
+Lots of new stuff learned today. Used in the demo were [`window.scrollY`](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY), [`window.innerHeight`](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight), [`HTMLelement.offsetTop`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop). Also [this article on _debouncing_](https://davidwalsh.name/javascript-debounce-function) explains what it does along with the code example.
