@@ -110,3 +110,10 @@ Live Link - [Slide in on Scroll](https://mriyam.dev/JavaScript30/CompletedChalle
 
 **Thoughts**:
 Lots of new stuff learned today. Used in the demo were [`window.scrollY`](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY), [`window.innerHeight`](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight), [`HTMLelement.offsetTop`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop). Also [this article on _debouncing_](https://davidwalsh.name/javascript-debounce-function) explains what it does along with the code example.
+
+### Day 14 - October 14, 2019
+
+Live Link - [JavaScript References VS Copying](https://mriyam.dev/JavaScript30/CompletedChallenges/14-javascript-references-vs-copying/)
+
+**Thoughts**:
+This one was a quick study. I had already learnt about copying before. Although the [`_.cloneDeep`](https://lodash.com/docs/4.17.15#cloneDeep) was new.
