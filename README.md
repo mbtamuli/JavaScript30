@@ -117,3 +117,10 @@ Live Link - [JavaScript References VS Copying](https://mriyam.dev/JavaScript30/C
 
 **Thoughts**:
 This one was a quick study. I had already learnt about copying before. Although the [`_.cloneDeep`](https://lodash.com/docs/4.17.15#cloneDeep) was new.
+
+### Day 15 - October 15, 2019
+
+Live Link - [LocalStorage](https://mriyam.dev/JavaScript30/CompletedChallenges/15-localstorage/)
+
+**Thoughts**:
+Learned about the LocalStorage methods [`localStorage.setItem`](https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem) and [`localStorage.getItem`](https://developer.mozilla.org/en-US/docs/Web/API/Storage/getItem). Will revisit this after the whole challenge completes to add the `Delete All`, `Check All` and  `Uncheck All` buttons.
