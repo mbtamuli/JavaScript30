@@ -123,4 +123,4 @@ This one was a quick study. I had already learnt about copying before. Although 
 Live Link - [LocalStorage](https://mriyam.dev/JavaScript30/CompletedChallenges/15-localstorage/)
 
 **Thoughts**:
-Learned about the LocalStorage methods [`localStorage.setItem`](https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem) and [`localStorage.getItem`](https://developer.mozilla.org/en-US/docs/Web/API/Storage/getItem). Will revisit this after the whole challenge completes to add the `Delete All`, `Check All` and  `Uncheck All` buttons.
+Learned about the LocalStorage methods [`localStorage.setItem`](https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem) and [`localStorage.getItem`](https://developer.mozilla.org/en-US/docs/Web/API/Storage/getItem). Will revisit this after the whole challenge completes to add the _Delete All_, _Check All_ and _Uncheck All_ buttons.
