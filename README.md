@@ -124,3 +124,10 @@ Live Link - [LocalStorage](https://mriyam.dev/JavaScript30/CompletedChallenges/1
 
 **Thoughts**:
 Learned about the LocalStorage methods [`localStorage.setItem`](https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem) and [`localStorage.getItem`](https://developer.mozilla.org/en-US/docs/Web/API/Storage/getItem). Will revisit this after the whole challenge completes to add the _Delete All_, _Check All_ and _Uncheck All_ buttons.
+
+### Day 16 - October 16, 2019
+
+Live Link - [Mouse Move Shadow](https://mriyam.dev/JavaScript30/CompletedChallenges/16-mouse-move-shadow/)
+
+**Thoughts**:
+Mostly new stuff. Few of the values were familiar from previous challenges. But at the end, it's wicked cool when you get to play around! 😆
