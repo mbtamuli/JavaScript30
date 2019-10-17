@@ -131,3 +131,10 @@ Live Link - [Mouse Move Shadow](https://mriyam.dev/JavaScript30/CompletedChallen
 
 **Thoughts**:
 Mostly new stuff. Few of the values were familiar from previous challenges. But at the end, it's wicked cool when you get to play around! 😆
+
+### Day 17 - October 17, 2019
+
+Live Link - [Sort Without Articles](https://mriyam.dev/JavaScript30/CompletedChallenges/17-sort-without-articles/)
+
+**Thoughts**:
+This was an easy one. Although, the code I wrote was not an optimal one, but I'm still happy I got it completely without getting any help from the solution part of the video.
