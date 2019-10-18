@@ -182,7 +182,6 @@
     </li>
   </ul>
 <script>
-
   const timeNodes = Array.from(document.querySelectorAll('[data-time]'));
 
   const seconds = timeNodes
@@ -191,16 +190,18 @@
       const [mins, secs] = timeCode.split(':').map(parseFloat);
       return (mins * 60) + secs;
     })
-    .reduce((total, vidSeconds) => total + vidSeconds);
+    .reduce((total, currentSeconds) => total + currentSeconds);
 
-    let secondsLeft = seconds;
-    const hours = Math.floor(secondsLeft / 3600);
-    secondsLeft = secondsLeft % 3600;
+  let secondsLeft = seconds;
+  const hours = Math.floor(secondsLeft / 3600);
+  secondsLeft = secondsLeft % 3600;
+  const minutes = Math.floor(secondsLeft / 60);
+  screenLeft = secondsLeft % 60;
 
-    const mins = Math.floor(secondsLeft / 60);
-    secondsLeft = secondsLeft % 60;
-
-    console.log(hours, mins, secondsLeft);
+  const list = document.querySelector('.videos');
+  const totalTime = document.createElement('li');
+  totalTime.textContent = `Total Time: ${hours}:${minutes}:${screenLeft}`;
+  list.appendChild(totalTime);
 
 </script>
 </body>

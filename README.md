@@ -138,3 +138,10 @@ Live Link - [Sort Without Articles](https://mriyam.dev/JavaScript30/CompletedCha
 
 **Thoughts**:
 This was an easy one. Although, the code I wrote was not an optimal one, but I'm still happy I got it completely without getting any help from the solution part of the video.
+
+### Day 18 - October 18, 2019
+
+Live Link - [Adding Up Times With Reduce](https://mriyam.dev/JavaScript30/CompletedChallenges/18-adding-up-times-with-reduce/)
+
+**Thoughts**:
+Really starting to appreciate map and reduce in general.
