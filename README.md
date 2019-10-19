@@ -145,3 +145,10 @@ Live Link - [Adding Up Times With Reduce](https://mriyam.dev/JavaScript30/Comple
 
 **Thoughts**:
 Really starting to appreciate map and reduce in general.
+
+### Day 19 - October 19, 2019
+
+Live Link - [Webcam Fun](https://mriyam.dev/JavaScript30/CompletedChallenges/19-webcam-fun/)
+
+**Thoughts**:
+This was tiring but fun. Also the more weird ones end up having browser compatibility issues. But this was lots of information packed into one challenge. Will have to revisit this one too, not for modifying, just understanding all the methods available on media streams and stuff.
