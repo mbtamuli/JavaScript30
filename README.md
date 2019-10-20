@@ -152,3 +152,10 @@ Live Link - [Webcam Fun](https://mriyam.dev/JavaScript30/CompletedChallenges/19-
 
 **Thoughts**:
 This was tiring but fun. Also the more weird ones end up having browser compatibility issues. But this was lots of information packed into one challenge. Will have to revisit this one too, not for modifying, just understanding all the methods available on media streams and stuff.
+
+### Day 20 - October 20, 2019
+
+Live Link - [Speech Detection](https://mriyam.dev/JavaScript30/CompletedChallenges/20-speech-detection/)
+
+**Thoughts**:
+Wow. This was interesting. Speech recognition right there in the browser. But currently it's Chrome only, but according to docs, Firefox plans to add it by 2020.
