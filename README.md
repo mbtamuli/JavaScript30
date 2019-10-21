@@ -159,3 +159,10 @@ Live Link - [Speech Detection](https://mriyam.dev/JavaScript30/CompletedChalleng
 
 **Thoughts**:
 Wow. This was interesting. Speech recognition right there in the browser. But currently it's Chrome only, but according to docs, Firefox plans to add it by 2020.
+
+### Day 21 - October 21, 2019
+
+Live Link - [Geolocation](https://mriyam.dev/JavaScript30/CompletedChallenges/20-geolocation/)
+
+**Thoughts**:
+Well, I didn't use a simulator and went for a walk! 😆 But the speed was only being changed in decimal places for km/hr setting.
