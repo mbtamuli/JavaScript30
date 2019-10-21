@@ -162,14 +162,14 @@ Wow. This was interesting. Speech recognition right there in the browser. But cu
 
 ### Day 21 - October 21, 2019
 
-Live Link - [Geolocation](https://mriyam.dev/JavaScript30/CompletedChallenges/20-geolocation/)
+Live Link - [Geolocation](https://mriyam.dev/JavaScript30/CompletedChallenges/21-geolocation/)
 
 **Thoughts**:
 Well, I didn't use a simulator and went for a walk! 😆 But the speed was only being changed in decimal places for km/hr setting.
 
 ### Day 22 - October 22, 2019
 
-Live Link - [Geolocation](https://mriyam.dev/JavaScript30/CompletedChallenges/20-geolocation/)
+Live Link - [Follow Along Link Highlighter](https://mriyam.dev/JavaScript30/CompletedChallenges/22-follow-along-link-highlighter/)
 
 **Thoughts**:
 The [`Element.getBoundingClientRect()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) was new. Also learnt about the [`mouseenter`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event) event.
