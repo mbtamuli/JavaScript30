@@ -166,3 +166,11 @@ Live Link - [Geolocation](https://mriyam.dev/JavaScript30/CompletedChallenges/20
 
 **Thoughts**:
 Well, I didn't use a simulator and went for a walk! 😆 But the speed was only being changed in decimal places for km/hr setting.
+
+### Day 22 - October 22, 2019
+
+Live Link - [Geolocation](https://mriyam.dev/JavaScript30/CompletedChallenges/20-geolocation/)
+
+**Thoughts**:
+The [`Element.getBoundingClientRect()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) was new. Also learnt about the [`mouseenter`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event) event.
+
