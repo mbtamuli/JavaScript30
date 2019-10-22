@@ -39,7 +39,7 @@
   msg.text = document.querySelector('[name=text]').value;
 
   function populateVoices() {
-    voices = this.voices;
+    voices = this.getVoices();
     voicesDropdown.innerHTML = voices
       .map(voice => `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`)
       .join('');
