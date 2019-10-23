@@ -174,3 +174,9 @@ Live Link - [Follow Along Link Highlighter](https://mriyam.dev/JavaScript30/Comp
 **Thoughts**:
 The [`Element.getBoundingClientRect()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) was new. Also learnt about the [`mouseenter`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event) event.
 
+### Day 23 - October 23, 2019
+
+Live Link - [Speech Synthesis](https://mriyam.dev/JavaScript30/CompletedChallenges/23-speech-synthesis/)
+
+**Thoughts**:
+Okay, so a lot of new stuff. The whole [SpeechSynthesis](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis) WebAPI was new. It was fun. Having this work cross browser, cross platform will be a pain! 😅
