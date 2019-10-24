@@ -180,3 +180,10 @@ Live Link - [Speech Synthesis](https://mriyam.dev/JavaScript30/CompletedChalleng
 
 **Thoughts**:
 Okay, so a lot of new stuff. The whole [SpeechSynthesis](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis) WebAPI was new. It was fun. Having this work cross browser, cross platform will be a pain! 😅
+
+### Day 24 - October 24, 2019
+
+Live Link - [Sticky Nav](https://mriyam.dev/JavaScript30/CompletedChallenges/24-sticky-nav/)
+
+**Thoughts**:
+This is something I've always used Bootstrap for! 😆 It's nice to do this without framework.
