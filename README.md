@@ -187,3 +187,10 @@ Live Link - [Sticky Nav](https://mriyam.dev/JavaScript30/CompletedChallenges/24-
 
 **Thoughts**:
 This is something I've always used Bootstrap for! 😆 It's nice to do this without framework.
+
+### Day 25 - October 25, 2019
+
+Live Link - [Event Capture, Propagation, Bubbling and Once](https://mriyam.dev/JavaScript30/CompletedChallenges/25-events/)
+
+**Thoughts**:
+This was a confusing one. I am pretty sure I have not understood the real use cases of each of the permutations of these methods/attributes/options - [`options` for addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), [`event.stopPropagation()`](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation). Will have to revisit this again.

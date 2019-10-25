@@ -40,28 +40,21 @@
   }
 </style>
 
-<button></button>
+<button>Checkout</button>
 <script>
   const divs = document.querySelectorAll('div');
   const button = document.querySelector('button');
 
-  function logText(e) {
+  function logText(event) {
+    event.stopPropagation();
     console.log(this.classList.value);
-    // e.stopPropagation(); // stop bubbling!
-    // console.log(this);
   }
 
-  divs.forEach(div => div.addEventListener('click', logText, {
-    capture: false,
-    once: true
-  }));
+  divs.forEach(div => div.addEventListener('click', logText, {capture: true}));
 
   button.addEventListener('click', () => {
-    console.log('Click!!!');
-  }, {
-    once: true
-  });
-
+    console.log('Checkout Clicked');
+  }, { once: true });
 </script>
 </body>
 </html>
