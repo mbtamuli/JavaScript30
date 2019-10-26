@@ -194,3 +194,10 @@ Live Link - [Event Capture, Propagation, Bubbling and Once](https://mriyam.dev/J
 
 **Thoughts**:
 This was a confusing one. I am pretty sure I have not understood the real use cases of each of the permutations of these methods/attributes/options - [`options` for addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), [`event.stopPropagation()`](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation). Will have to revisit this again.
+
+### Day 26 - October 26, 2019
+
+Live Link - [Stripe Follow Along Nav](https://mriyam.dev/JavaScript30/CompletedChallenges/26-stripe-follow-along-nav/)
+
+**Thoughts**:
+This exercise was a good introduction to explain the fact that we can use the same methods and properties in various combinations and add a little bit of math to create amazing functions.
