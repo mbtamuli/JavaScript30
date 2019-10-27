@@ -201,3 +201,10 @@ Live Link - [Stripe Follow Along Nav](https://mriyam.dev/JavaScript30/CompletedC
 
 **Thoughts**:
 This exercise was a good introduction to explain the fact that we can use the same methods and properties in various combinations and add a little bit of math to create amazing functions.
+
+### Day 27 - October 27, 2019
+
+Live Link - [Click and Drag](https://mriyam.dev/JavaScript30/CompletedChallenges/27-click-and-drag/)
+
+**Thoughts**:
+So I learnt about the [`pageX`](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/pageX) method which was used to create this cool click and drag event. But mostly it was more about how to use the same position and other properties of elements and the mouse to create cool effects.
