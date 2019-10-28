@@ -208,3 +208,10 @@ Live Link - [Click and Drag](https://mriyam.dev/JavaScript30/CompletedChallenges
 
 **Thoughts**:
 So I learnt about the [`pageX`](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/pageX) method which was used to create this cool click and drag event. But mostly it was more about how to use the same position and other properties of elements and the mouse to create cool effects.
+
+### Day 28 - October 28, 2019
+
+Live Link - [Video Speed Controller](https://mriyam.dev/JavaScript30/CompletedChallenges/28-video-speed-controller/)
+
+**Thoughts**:
+I'm really thankful to Wes for creating this course. It's really fun learning the behind the scenes of these awesome effects. Now whenever I see cool effects I start thinking of how can I replicate it! 👀
