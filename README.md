@@ -215,3 +215,10 @@ Live Link - [Video Speed Controller](https://mriyam.dev/JavaScript30/CompletedCh
 
 **Thoughts**:
 I'm really thankful to Wes for creating this course. It's really fun learning the behind the scenes of these awesome effects. Now whenever I see cool effects I start thinking of how can I replicate it! 👀
+
+### Day 29 - October 29, 2019
+
+Live Link - [Countdown Timer](https://mriyam.dev/JavaScript30/CompletedChallenges/29-countdown-timer/)
+
+**Thoughts**:
+This is a tool I might start using along with a ToDo list feature and using localStorage to have it work offline too! 😆
