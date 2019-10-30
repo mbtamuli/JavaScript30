@@ -222,3 +222,14 @@ Live Link - [Countdown Timer](https://mriyam.dev/JavaScript30/CompletedChallenge
 
 **Thoughts**:
 This is a tool I might start using along with a ToDo list feature and using localStorage to have it work offline too! 😆
+
+### Day 30 - October 30, 2019
+
+Live Link - [Whack A Mole](https://mriyam.dev/JavaScript30/CompletedChallenges/30-whack-a-mole/)
+
+**Thoughts**:
+So it was fun to follow along and create this. But I am not sure I could've created this from scratch without any help. Will still need loads of practice. But it was even more fun to play with it! Not able to go beyond 13 though for the score. 😅
+
+## What next?
+
+Well, this brings us to an end of the JavaScript30 course. I am planning on doing another 30 days challenge in the future where I don't take help from any course and build things on my own. The ideas could be from something I see in the wild on the internet. If I do anything else, I'll just keep adding more to this repo.
